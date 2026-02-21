@@ -177,7 +177,7 @@ a{
 # ----------------------------
 # HEADER UI
 # ----------------------------
-st.markdown('<div class="royal-title">👑 Royal C++ Chatbot</div>', unsafe_allow_html=True)
+st.markdown('<div class="royal-title">👑  C++ Chatbot</div>', unsafe_allow_html=True)
 st.markdown(
     '<div class="royal-subtitle">Ask any question about your <b>C++ Introduction</b> notes. '
     'This bot retrieves the most relevant sections from your file.</div>',
@@ -289,4 +289,5 @@ if user_query:
 
 # Footer note
 st.markdown('<div class="royal-divider"></div>', unsafe_allow_html=True)
+
 st.caption("Tip: This version is retrieval-only. If you want *real AI answers*, tell me if you want Gemini / OpenAI / Ollama integration.")
